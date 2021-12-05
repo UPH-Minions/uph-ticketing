@@ -3,12 +3,12 @@ import styled from 'styled-components';
 export const Container = styled.div`
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 15px;
-  width: 80%;
-  background-color: #fff;
+  width: 100%;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  position: absolute;
+  position: relative;
+  background-color: #fff;
 
   @media screen and (min-width: 1024px) {
     width: 40%;
@@ -21,19 +21,57 @@ export const ColumnGrid = styled.div`
   padding: 16px;
 `;
 
-export const Title = styled.h1`
+export const RowGrid = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+export const Title = styled.h2`
   font-weight: bold;
-  font-size: 33px;
-  color: #8a9abf;
+  font-size: 28px;
+  margin: 8px 0;
+  color: #002d77;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 33px;
+  }
+`;
+
+export const Heading = styled.h3`
+  text-transform: capitalize;
+  font-size: 24px;
+  margin: 8px 0;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 28px;
+  }
 `;
 
 export const Content = styled.p`
-  font-size: 24px;
-  color: #8a9abf;
+  font-size: 18px;
+  color: #002d77;
+  margin: 8px 8px 8px 0;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+  }
 `;
 
-export const Divider = styled.hr`
-  height: 2px;
-  border-width: 0;
-  color: #8a9abf;
+export const Border = styled.hr`
+  border-top: 1px dotted #002d27;
+  width: 100%;
+`;
+
+export const StudioText = styled.h1`
+  font-weight: bold;
+  font-size: 144px;
+  margin: 16px;
+  color: #002d77;
+`;
+
+export const StudioGrid = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 `;

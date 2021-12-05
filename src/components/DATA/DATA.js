@@ -3,7 +3,8 @@ const STUDENT = [
     id: 'siswa1',
     name: 'Richard Angkawinata',
     school: 'Methodist-2',
-    ticket: 'Cinepolis B-19',
+    row: 'B',
+    seat: 4,
     code: 'IDEATION1',
   },
   {

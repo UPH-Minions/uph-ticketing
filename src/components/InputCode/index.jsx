@@ -38,7 +38,7 @@ const InputCode = () => {
                   <Button key={item.id}>Redeem Ticket</Button>
                 </Link>
               ) : (
-                <div key={item.id} />
+                  <div key={item.id} />
                 // <Button disabled>Redeem Ticket</Button>
               )
             )}
@@ -52,7 +52,8 @@ const InputCode = () => {
               <Ticket
                 name={item.name}
                 school={item.school}
-                ticket={item.ticket}
+                row={item.row}
+                seat={item.seat}
               />
             ) : (
               <div key={item.id} />

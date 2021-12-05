@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #b8cdff;
+  /* background-color: #b8cdff; */
   width: 100%;
   height: 100vh;
   position: relative;
+  background-image: url('https://japaneast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Fuph365-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!q5YFcYmepUy3eEnSE8w_6KlxUodYQgtHt2HxIJ0Gvp1LNIzIH4ZJTaI5_32hIWli%2Fitems%2F01RABU75B7XGFJQL57KZA2YNOT4D2CD474%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvdXBoMzY1LW15LnNoYXJlcG9pbnQuY29tQDkwMjRmZWY5LWFjZDctNGE5YS05OGQxLWI3MjI1YjY3Y2YyNCIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE2Mzg2ODQwMDAiLCJleHAiOiIxNjM4NzA1NjAwIiwiZW5kcG9pbnR1cmwiOiJBTzY4Tk53U05DSU9yNERYL3M2NVdHMFU0RXEzbjh3aUtvOHdkYnhWdGFrPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE2IiwiaXNsb29wYmFjayI6IlRydWUiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiTnpFd05UazJZV0l0T1dVNE9TMDBZMkUxTFdJM056Z3RORGxrTWpFelkyTXpabVU0Iiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHwwMzA4MjE5MDAwNkBzdHVkZW50LnVwaC5lZHUiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzMjAwMDU3ZmUzNThhQGxpdmUuY29tIiwic2Vzc2lvbmlkIjoiYjcwMzg2ZTUtNGJiOC00MDY0LWFkNjktOWMyMWMxOTlkNDVhIiwidHQiOiIwIiwidXNlUGVyc2lzdGVudENvb2tpZSI6IjMiLCJpcGFkZHIiOiIxNTguMTQwLjE2NC4yNiJ9.eUt0OHlsS1lPZ2RxcW54dWVzZ0wvNC9MS3hBMzhOK29JWWdnU3VaVTF0TT0&cTag=%22c%3A%7B988AB93F-BF2F-4156-AC35-D3E0F421F3FC%7D%2C1%22&encodeFailures=1&width=2880&height=1490&srcWidth=&srcHeight=');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; ;
 `;

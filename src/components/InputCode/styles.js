@@ -22,7 +22,7 @@ export const InputContainer = styled.form`
 `;
 
 export const Label = styled.label`
-  color: #8a9abf;
+  color: #002d77;
   padding-bottom: 8px;
   font-size: 1.5rem;
 `;
@@ -31,10 +31,10 @@ export const Input = styled.input`
   border-radius: 4px;
   padding: 8px;
   margin-bottom: 8px;
-  border: 1px solid #8a9abf;
+  border: 1px solid #002d27;
 
   &::placeholder {
-    color: #8a9abf;
+    color: #002d77;
   }
 `;
 
@@ -46,7 +46,7 @@ export const ButtonContainer = styled.div`
 
 export const Button = styled.button`
   border-radius: 4px;
-  background-color: #8a9abf;
+  background-color: #002d27;
   color: #fff;
   font-size: 0.8rem;
   padding: 8px 12px;
