@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/uph-ticketing/static/js/main.31594dce.chunk.js",
-    "main.js.map": "/uph-ticketing/static/js/main.31594dce.chunk.js.map",
+    "main.js": "/uph-ticketing/static/js/main.002506c6.chunk.js",
+    "main.js.map": "/uph-ticketing/static/js/main.002506c6.chunk.js.map",
     "runtime-main.js": "/uph-ticketing/static/js/runtime-main.1cd62cee.js",
     "runtime-main.js.map": "/uph-ticketing/static/js/runtime-main.1cd62cee.js.map",
-    "static/js/2.bb5ec350.chunk.js": "/uph-ticketing/static/js/2.bb5ec350.chunk.js",
-    "static/js/2.bb5ec350.chunk.js.map": "/uph-ticketing/static/js/2.bb5ec350.chunk.js.map",
+    "static/js/2.8bcdcad9.chunk.js": "/uph-ticketing/static/js/2.8bcdcad9.chunk.js",
+    "static/js/2.8bcdcad9.chunk.js.map": "/uph-ticketing/static/js/2.8bcdcad9.chunk.js.map",
     "index.html": "/uph-ticketing/index.html",
-    "static/js/2.bb5ec350.chunk.js.LICENSE.txt": "/uph-ticketing/static/js/2.bb5ec350.chunk.js.LICENSE.txt"
+    "static/js/2.8bcdcad9.chunk.js.LICENSE.txt": "/uph-ticketing/static/js/2.8bcdcad9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1cd62cee.js",
-    "static/js/2.bb5ec350.chunk.js",
-    "static/js/main.31594dce.chunk.js"
+    "static/js/2.8bcdcad9.chunk.js",
+    "static/js/main.002506c6.chunk.js"
   ]
 }
