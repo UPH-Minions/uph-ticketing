@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/uph-ticketing/static/js/main.e6487692.chunk.js",
-    "main.js.map": "/uph-ticketing/static/js/main.e6487692.chunk.js.map",
+    "main.js": "/uph-ticketing/static/js/main.bc029ef4.chunk.js",
+    "main.js.map": "/uph-ticketing/static/js/main.bc029ef4.chunk.js.map",
     "runtime-main.js": "/uph-ticketing/static/js/runtime-main.1cd62cee.js",
     "runtime-main.js.map": "/uph-ticketing/static/js/runtime-main.1cd62cee.js.map",
     "static/js/2.8bcdcad9.chunk.js": "/uph-ticketing/static/js/2.8bcdcad9.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.1cd62cee.js",
     "static/js/2.8bcdcad9.chunk.js",
-    "static/js/main.e6487692.chunk.js"
+    "static/js/main.bc029ef4.chunk.js"
   ]
 }
