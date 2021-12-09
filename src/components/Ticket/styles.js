@@ -30,7 +30,7 @@ export const Title = styled.h2`
   font-weight: bold;
   font-size: 28px;
   margin: 8px 0;
-  color: #002d77;
+  color: #1c7a3d;
 
   @media screen and (min-width: 1024px) {
     font-size: 33px;
@@ -49,7 +49,7 @@ export const Heading = styled.h3`
 
 export const Content = styled.p`
   font-size: 18px;
-  color: #002d77;
+  color: #1c7a3d;
   margin: 8px 8px 8px 0;
 
   @media screen and (min-width: 1024px) {
@@ -58,7 +58,7 @@ export const Content = styled.p`
 `;
 
 export const Border = styled.hr`
-  border-top: 1px dotted #002d27;
+  border-top: 1px dotted #1c7a3d;
   width: 100%;
 `;
 
@@ -66,7 +66,7 @@ export const StudioText = styled.h1`
   font-weight: bold;
   font-size: 144px;
   margin: 16px;
-  color: #002d77;
+  color: #1c7a3d;
 `;
 
 export const StudioGrid = styled.div`

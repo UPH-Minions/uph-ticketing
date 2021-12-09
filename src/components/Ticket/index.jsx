@@ -54,7 +54,7 @@ Ticket.propTypes = {
   name: PropTypes.string,
   school: PropTypes.string,
   row: PropTypes.string,
-  seat: PropTypes.number,
+  seat: PropTypes.string,
 };
 
 Ticket.defaultProps = {

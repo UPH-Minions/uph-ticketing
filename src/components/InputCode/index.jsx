@@ -32,32 +32,29 @@ const InputCode = () => {
             value={inputCode}
           />
           <ButtonContainer>
-            {STUDENT.map((item) =>
-              inputCode === item.code ? (
-                <Link to='/ticket'>
-                  <Button key={item.id}>Redeem Ticket</Button>
-                </Link>
-              ) : (
-                  <div key={item.id} />
-                // <Button disabled>Redeem Ticket</Button>
-              )
+            {STUDENT.map(
+              (item) =>
+                inputCode === item.CODE && (
+                  <Link to='/ticket'>
+                    <Button key={item.ID}>Redeem Ticket</Button>
+                  </Link>
+                )
             )}
           </ButtonContainer>
         </InputContainer>
       </Container>
       <Switch>
         <Route path='/ticket'>
-          {STUDENT.map((item) =>
-            inputCode === item.code ? (
-              <Ticket
-                name={item.name}
-                school={item.school}
-                row={item.row}
-                seat={item.seat}
-              />
-            ) : (
-              <div key={item.id} />
-            )
+          {STUDENT.map(
+            (item) =>
+              inputCode === item.CODE && (
+                <Ticket
+                  name={item.NAME}
+                  school={item.SCHOOL}
+                  row={item.ROW}
+                  seat={item.SEAT}
+                />
+              )
           )}
         </Route>
       </Switch>

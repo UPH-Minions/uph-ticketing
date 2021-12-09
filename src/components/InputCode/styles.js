@@ -22,7 +22,7 @@ export const InputContainer = styled.form`
 `;
 
 export const Label = styled.label`
-  color: #002d77;
+  color: #1c7a3d;
   padding-bottom: 8px;
   font-size: 1.5rem;
 `;
@@ -31,10 +31,10 @@ export const Input = styled.input`
   border-radius: 4px;
   padding: 8px;
   margin-bottom: 8px;
-  border: 1px solid #002d27;
+  border: 1px solid #1c7a3d;
 
   &::placeholder {
-    color: #002d77;
+    color: #1c7a3d;
   }
 `;
 
@@ -53,7 +53,7 @@ export const Button = styled.button`
   border: none;
 
   &:hover {
-    background-color: #5c667f;
+    background-color: #1c7a3d;
   }
 
   &:disabled {
